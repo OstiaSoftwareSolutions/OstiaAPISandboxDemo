@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   gui:
-    image: ostia/gui:01
+    image: ostia/gui:03
     ports:
       - "57800:8080"
     
