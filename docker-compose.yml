@@ -1,16 +1,16 @@
 version: "3.9"
 services:
-  gui:
+  GUI:
     image: ostia/gui:03
     ports:
       - "57800:8080"
     
-  sandbox01:
+  Petstore:
     image: ostia/petstore:01
     ports:
       - "57801:9090"
     
-  sandbox02:
+  Bookstore:
     image: ostia/bookstore:01
     ports:
       - "57802:9090"
